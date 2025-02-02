@@ -1,1 +1,519 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cain Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jua&family=M+PLUS+Rounded+1c:wght@500;700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
 
+<body>
+
+  <!-- NAV BAR -->
+  <header>
+    <nav class="navbar navbar-default fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header row">
+          <!-- LOGO IMAGE -->
+          <div class="navbar-brand col-4 d-flex align-self-center">
+            <a href="index.html">
+             <img src="images/base/dark_logo.png" class="main_logo"> 
+            </a>
+            <!-- NAME AND SIGNATURE -->
+            <span class="bebas name_box d-flex align-self-center"> 
+              <div>
+                <img id="signature" src="images/base/signature.png">
+              </div>
+              <div class="my_name_head">
+                <p> CAIN </p>
+                <p> PARK </p>
+              </div>
+            </span>
+          </div>
+          <!-- MENU BUTTONS -->
+          <div class="col-8">
+            <div class="d-none d-lg-block"> <!-- EXPANDED MENU START -->
+              <div class="nav-menu bebas d-flex justify-content-end align-self-center">
+                <a id="home" href="index.html" class="menu-item">HOME</a>
+                <span class="dropdown">
+                  <div id="illustration">
+                    <a href="illustration.html" class="menu-item invisible-button">ILLUSTRATION</a>
+                    <a href="illustration.html" role="button" class="dropdown-toggle menu-item" data-bs-toggle="dropdown" aria-expanded="false">ILLUSTRATION</a>
+                    <ul id="navbar-illustration" class="dropdown-menu" aria-labelledby="illustration">
+                      <li><div><a class="dropdown-item" href="illustration.html#digital">DIGITAL ART</a></div></li>
+                      <li><div><a class="dropdown-item" href="illustration.html#traditional">TRADITIONAL</a></div></li>
+                      <li><div><a class="dropdown-item" href="illustration.html#stickers">STICKERS</a></div></li>
+                      <li><div><a class="dropdown-item" href="illustration.html#character">CHARACTER DESIGN</a></div></li>
+                      <li><div><a class="dropdown-item" href="illustration.html#dnd">DUNGEONS & DRAGONS</a></div></li>
+                      <li><div><a class="dropdown-item" href="illustration.html#projects">PROJECTS</a></div></li>
+                    </ul>
+                  </div>
+                </span>
+                <span class="dropdown">
+                  <div id="design">
+                    <a href="design.html" class="menu-item invisible-button">DESIGN</a>
+                    <a href="design.html" role="button" class="dropdown-toggle menu-item" data-bs-toggle="dropdown" aria-expanded="false">DESIGN</a>
+                    <ul id="navbar-design" class="dropdown-menu" aria-labelledby="design">
+                      <li><div><a class="dropdown-item" href="design.html#logo">LOGO WORK</a></div></li>
+                      <li><div><a class="dropdown-item" href="design.html#type">TYPOGRAPHY</a></div></li>
+                      <li><div><a class="dropdown-item" href="design.html#collage">COLLAGE</a></div></li>
+                      <li><div><a class="dropdown-item" href="design.html#flat">FLAT ART</a></div></li>
+                      <li><div><a class="dropdown-item" href="design.html#etc">OTHER WORK</a></div></li>
+                    </ul>
+                  </div>
+                </span>
+                <a id="literature" href="literature.html" class="menu-item">LITERATURE</a>
+                <a id="web" href="web.html" class="menu-item">WEB</a>
+                <a id="about" href="index.html#about-nav" class="menu-item">ABOUT</a>          
+              </div> <!-- EXPANDED MENU BAR -->
+            </div>
+            <div class="d-lg-none"> <!-- CONDENSED MENU BAR -->
+              <div class="nav-menu bebas d-flex justify-content-end align-self-center">
+                <span class="dropdown">
+                  <div id="menu-toggle">
+                    <div role="button" id="menu-button" class="dropdown-toggle menu-item" data-bs-toggle="dropdown" aria-expanded="false">MENU</div>
+                    <ul id="navbar-condensed" class="dropdown-menu" aria-labelledby="menu-toggle">
+                      <li><a id="home-con" href="index.html" class="dropdown-item-sub">HOME</a></li>
+                      <li><a id="illustration-con" href="illustration.html" class="dropdown-item-sub">ILLUSTRATION</a></li>
+                      <li><a id="design-con" href="design.html" class="dropdown-item-sub">DESIGN</a></li>
+                      <li><a id="literature-con" href="literature.html" class="dropdown-item-sub">LITERATURE</a></li>
+                      <li><a id="web-con" href="web.html" class="dropdown-item-sub">WEB</a></li>
+                      <li><a id="about-con" href="index.html#about-nav" class="dropdown-item-sub">ABOUT</a></li>
+                    </ul>
+                  </div>
+                </span>          
+              </div>
+            </div>
+          </div>   <!-- MENU BAR END -->
+        </div>
+      </div> <!-- /.container-fluid -->
+    </nav>
+  </header>
+
+  <!-- MAIN BODY -->
+  <section class="container-fluid" id="top">
+    <div class="row"> 
+      <div class="col-12">
+        <div class="spacer"></div>
+        <div class="diag-container">
+          <img src="images/illustration/purple_diag.png" class="diag-lines"> 
+        </div>
+        <div class="section_box illust_box"> <!-- ILLUSTRATION SECTION -->
+          <div class="line-class-top">
+            <hr class="half-purple line-thin-class">
+            <hr class="half-purple line-thick-class">
+          </div>
+          <div class="d-flex justify-content-center align-self-center">
+            <span class="class-visual align-self-center">  
+              <img src="images/illustration/illustration.png" class="class-logo-I"> 
+              <a href="illustration.html">
+                <div class="class-button-whole-I d-flex justify-content-center align-self-center">
+                  <img src="images/base/I-HEADING.png" class="class-button-I"> 
+                  <img src="images/base/I-HEADING-ALT.png" class="class-button-hover-I">
+                </div>
+              </a>                
+            </span>
+          </div> 
+        </div> <!-- ILLUSTRATION SECTION END -->
+        <div class="diag-container"> 
+          <img src="images/design/red_diag.png" class="diag-lines">
+        </div>
+        <div class="section_box des_box"> <!-- DESIGN SECTION -->
+        <div class="line-class-top">
+          <hr class="half-red line-thin-class">
+          <hr class="half-red line-thick-class">
+        </div>
+          <div class="d-flex justify-content-center align-self-center">
+            <span class="class-visual align-self-center">  
+              <img src="images/design/design.png" class="class-logo-D"> 
+              <a href="design.html">
+                <div class="class-button-whole-D d-flex justify-content-center align-self-center">
+                  <img src="images/base/D-HEADING.png" class="class-button-D">
+                  <img src="images/base/D-HEADING-ALT.png" class="class-button-hover-D">
+                </div>
+              </a>                
+            </span>
+          </div> 
+        </div> <!-- DESIGN SECTION END -->
+        <div class="diag-container">
+          <img src="images/literature/yellow_diag.png" class="diag-lines">
+        </div>
+        <div class="section_box lit_box"> <!-- LITERATURE SECTION --> 
+        <div class="line-class-top">
+          <hr class="half-yellow line-thin-class">
+          <hr class="half-yellow line-thick-class">
+        </div>       
+          <div class="d-flex justify-content-center align-self-center">
+            <span class="class-visual align-self-center">  
+              <img src="images/literature/literature.png" class="class-logo-L"> 
+              <a href="literature.html">
+                <div class="class-button-whole-L d-flex justify-content-center align-self-center">
+                  <img src="images/base/L-HEADING.png" class="class-button-L"> 
+                  <img src="images/base/L-HEADING-ALT.png" class="class-button-hover-L">
+                </div>
+              </a>                
+            </span>
+          </div> 
+        </div> <!-- LITERATURE SECTION END -->
+        <div class="diag-container"> 
+          <img src="images/web/blue_diag.png" class="diag-lines">
+        </div>
+        <div class="section_box web_box"> <!-- WEB SECTION -->
+        <div class="line-class-top">
+          <hr class="half-blue line-thin-class">
+          <hr class="half-blue line-thick-class">
+        </div>
+          <div class="d-flex justify-content-center align-self-center">
+            <span class="class-visual align-self-center">  
+              <img src="images/web/web.png" class="class-logo-W">
+              <a href="web.html">
+                <div class="class-button-whole-W d-flex justify-content-center align-self-center">
+                  <img src="images/base/W-HEADING.png" class="class-button-W">
+                  <img src="images/base/W-HEADING-ALT.png" class="class-button-hover-W">
+                </div>
+              </a>                
+            </span>
+          </div> 
+        </div> <!-- WEB SECTION END --> 
+      </div>
+    </div>
+  </section> 
+
+  <!-- ABOUT SECTION -->
+  <section class="container-fluid section-container">
+    <div class="spacer-2" id="about-nav"></div>
+    <div class="col-12">
+      <div id="about-section">
+        <img src="images/about/A-HEADING.png" class="about-heading d-flex justify-content-center">
+        <div class="row a-sect1 d-flex flex-wrap">
+          <div class="line-deco">
+            <hr class="half-purple line-thin">
+            <hr class="half-purple line-thick">
+          </div>
+          <div class="col-12 col-sm-7 d-flex flex-column justify-content-between"> <!-- ABOUT SECTION 1 LEFT -->
+            <img src="images/about/flag.png" class="d-none d-sm-block flag-pic">
+            <img src="images/about/flag.png" class="d-sm-none flag-pic-xs">
+            <img src="images/about/pfp.png" class="col-pic"> 
+            <div class="sub-box d-sm-none">
+              <h1 class="sub-name bebas text-center"> CAIN PARK </h1>
+              <a class="email-link sub-list sour-gummy" href="mailto:cain.psk.29@gmail.com">CONTACT ME!</a>
+              <div class="contact-info sour-gummy d-flex flex-wrap">
+                <div class="col-5 d-flex flex-column justify-content-between"> 
+                  <span class="contact-text"> 
+                  <img src="images/about/discord.png" class="logo-img">
+                  n.v.caine </span>
+                </div>
+                <div class="col-7 d-flex flex-column justify-content-between">  
+                  <span class="contact-text">
+                  <img src="images/about/steam.png" class="logo-img">
+                  359568768 </span>
+                </div>
+              </div>
+              <h2 class="sub-list text-center sour-gummy">
+                Austin, TX </h2>
+              <p class="subsub-text sour-gummy">
+                I was born in Korea & moved to America when I was 7. After living in various parts of Houston, I went to Texas A&M then ended up in Austin.
+                <br><br>
+                I've been drawing my entire life, transferring to mostly digital at 16. I use Clip Studio Paint for everything art-related, formerly with a Wacom Intuos and Cintiq, and now through the CSP app on my iPad.
+                <br><br>
+                My love-hate relationship with Adobe began at 14 (love for what I can make; hate for when it crashes or decides to update and change what holding the SHIFT key does *cough* PHOTOSHOP *cough*)         
+              </p>
+            </div>
+            <div class="sub-box">
+              <h1 class="sub-head bebas text-left"> TECH PROFICIENCIES </h1>
+              <ul class="sub-list sour-gummy">
+                <li>Adobe Creative Suite</li>
+                <ul class="subsub-list-x sour-gummy">
+                  <li>Photoshop</li>
+                  <li>Illustrator</li>
+                  <li>After Effects</li>
+                  <li>Premiere Pro</li>
+                  <li>InDesign</li>
+                </ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div class="sub-box">
+              <h1 class="sub-head bebas text-left"> CERTIFICATIONS </h1>
+              <ul class="subsub-list sour-gummy">
+                <li>ACA // Photoshop</li>
+                <li>ACA // Illustrator</li>
+                <li>HTML, CSS, and Javascript // John Hopkins</li>
+            </div>
+            <div class="sub-box sub-box-single">
+              <h1 class="sub-head bebas text-left"> LANGUAGES </h1>
+              <div class="d-flex flex-wrap"> 
+                <div class="col-6 d-flex flex-column justify-content-between">
+                  <h1 class="subsub-head bebas text-left"> NATIVE  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Korean</li>
+                    <li>English</li>
+                  </ul>
+                </div>
+                <div class="col-6 d-flex flex-column justify-content-between">
+                  <h1 class="subsub-head bebas text-left"> LEARNT  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Latin</li>
+                    <li>Japanese</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-5 d-flex flex-column justify-content-between"> <!-- ABOUT SECTION 1 RIGHT --> 
+            <div class="sub-box d-none d-sm-block">
+              <h1 class="sub-name bebas text-center"> CAIN PARK </h1>
+              <a class="email-link sub-list sour-gummy" href="mailto:cain.psk.29@gmail.com">EMAIL ME!</a>
+              <div class="contact-info sour-gummy d-flex flex-wrap">
+                <div class="col-5 d-flex flex-column justify-content-between"> 
+                  <span class="contact-text"> 
+                  <img src="images/about/discord.png" class="logo-img">
+                  n.v.caine </span>
+                </div>
+                <div class="col-7 d-flex flex-column justify-content-between">  
+                  <span class="contact-text">
+                  <img src="images/about/steam.png" class="logo-img">
+                  359568768 </span>
+                </div>
+              </div>
+              <h2 class="sub-list text-center sour-gummy">
+                Austin, TX </h2>
+              <p class="subsub-text sour-gummy">
+                I was born in Korea & moved to America when I was 7. After living in various parts of Houston, I went to Texas A&M then ended up in Austin.
+                <br><br>
+                I've been drawing my entire life, transferring to mostly digital at 16. I use Clip Studio Paint for everything art-related, formerly with a Wacom Intuos and Cintiq, and now through the CSP app on my iPad.
+                <br><br>
+                My love-hate relationship with Adobe began at 14 (love for what I can make; hate for when it crashes or decides to update and change what holding the SHIFT key does *cough* PHOTOSHOP *cough*)         
+              </p>
+            </div>
+            <div class="sub-box">
+              <h1 class="sub-head bebas text-left"> INVENTORY </h1>
+              <img src="images/about/inventory.png" class="col-pic">
+            </div>
+          </div>
+          <div class="col-12 col-sm-5 d-flex flex-column justify-content-between"> <!-- ABOUT SECTION 2 LEFT -->
+            <div class="sub-box sub-box-single">
+              <h1 class="sub-head bebas text-left"> HOBBIES </h1>
+              <ul class="sub-list sour-gummy">
+                <li>Drawing</li>
+                <li>Reading // Writing</li>
+                <li>Gaming</li>
+                <li>Those Miniature House Diorama Kits</li>
+                <li>Dungeons & Dragons</li>
+                <li>Puzzles</li>
+                <li>Plants</li>
+                <li>Cooking</li>
+              </ul>
+            </div>
+            <div class="sub-box sub-box-single">
+              <h1 class="sub-head bebas text-left"> LIKES </h1>
+              <ul class="sub-list sour-gummy">
+                <li>Wooper</li>
+                <li>Raccoons</li>
+                <li>Bees</li>
+                <li>Fruity Candles</li>
+                <li>RGB</li>
+                <li>Ghosts</li>
+                <li>Math</li>
+                <li>Squishable Brand Plague Doctors</li>
+              </ul>
+            </div>
+            <div class="sub-box sub-box-single">
+              <h1 class="sub-head bebas text-left"> DISLIKES </h1>
+              <ul class="sub-list sour-gummy">
+                <li>Cilantro</li>
+                <li>Flawless Characters</li>
+                <li>Deus Ex Machina Trope</li>
+              </ul>
+            </div>
+            <div class="sub-box sub-box-single">
+              <h1 class="sub-head bebas text-left"> BOOK OF GRUDGES </h1>
+              <ul class="sub-list sour-gummy">
+                <li>International Delight 
+                  <p class="subsub-text sour-gummy"> For discontinuing the perfect Sweet Cream creamer to replace it with the far inferior Sweet & Creamy creamer </p></li>
+                  <li>Ferris 
+                  <p class="subsub-text sour-gummy"> For pooping on my favorite rug </p></li>
+              </ul>
+            </div>
+            <div class="sub-box sub-box-single">
+              <h1 class="sub-head bebas text-left"> CATS </h1>
+              <img src="images/about/cats.png" class="col-pic">
+            </div>
+          </div>
+          <div class="col-12 col-sm-7 d-flex flex-column justify-content-between"> <!-- ABOUT SECTION 2 RIGHT --> 
+            <div class="sub-box sub-box-single">
+              <h1 class="sub-head bebas text-left"> FAVORITE . . .  </h1>
+              <div class="d-flex flex-wrap"> 
+                <div class="col-6 d-flex flex-column justify-content-between">
+                  <h1 class="subsub-head bebas text-left"> BOOKS  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Frankenstein</li>
+                    <li>Six of Crows</li>
+                    <li>Ender's Game</li>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> LITERARY GENRES  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Cyberpunk</li>                    
+                    <li>Fantasy</li>
+                    <ul class="subsubsub-list-x sour-gummy">
+                      <li>Low Dark Heroic</li>
+                      <li>High Dark Epic</li>
+                      <li>Mixed With Cyberpunk</li>
+                    </ul>
+                    <li>Heist // Mystery</li>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> SONGS  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Yellow // Yoh Kamiyama</li>
+                    <li>Junky Night Town Orchestra // <span class="m-plus-bold"> すりい </span></li>
+                    <li>The Other Side // The Greatest Showman</li>
+                    <li>New Money // The Great Gatsby</li>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> MOVIES </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Into the Spiderverse</li>
+                    <li>The Unbearable Weight of Massive Talent</li>
+                    <li>Paddington 2</li>
+                    <li>Suzume</li>
+                    <li>Your Name</li>
+                    <li>Smile 2*</li>
+                    <p class="subsub-text sour-gummy"> *minus the ending </p>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> TV SHOWS </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Merlin // BBC</li>
+                    <li>Hannibal* // NBC</li>
+                    <li>Sherlock* // BBC</li>
+                    <p class="subsub-text sour-gummy"> *minus the ending </p>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> FOODS </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Yukhoe // <span class="jua"> 육회 </span></li>   
+                    <li>Bossam // <span class="jua"> 보쌈 </span></li>
+                    <li>Smoked Salmon</li>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> DESSERTS </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Tiramisu</li>   
+                    <li>Salted Egg Custard Buns</li>
+                    <li>Strawberry Shortcake</li>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> CHEESE </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Manchego</li>   
+                    <li>Mascarpone</li>
+                  </ul>
+                </div>
+                <div class="col-6 d-flex flex-column justify-content-between ">
+                  <h1 class="subsub-head bebas text-left"> CHARACTERS  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>9S // NieR: Automata</li>
+                    <li>Peter Pan</li>
+                    <li>Sir Gawain</li>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> CRYPTIDS  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Mothman</li>
+                    <li>Fresno Nightcrawler</li>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> STORY GAMES  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>NieR:Automata</li>
+                    <li>Red Dead 2</li>
+                    <li>Danganronpa</li>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> VR GAMES  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Beat Saber</li>
+                    <li>Dance Rush</li>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> NON-STORY GAMES  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>ARK</li>
+                    <li>Balatro</li>
+                    <li>Vampire Survivors</li>
+                    <li>Placid Plastic Duck Simulator</li>
+                    <li>Tetris</li>
+                  </ul>
+
+                  <h1 class="subsub-head bebas text-left"> MUSICALS  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Hamilton</li>
+                    <li>EPIC</li>
+                    <li>The Great Gatsby</li>
+                    <li>Hadestown</li>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> AESTHETICS  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Carnival // Circus</li>
+                    <li>Cyberpunk</li>
+                    <li>Victorian Steampunk</li>
+                    <li>Gothic</li>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> PLANTS  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Monstera Albo</li>
+                    <li>Philodendron Jose Buono</li>
+                    <li>Philodendron Thai Sunrise</li>
+                    <li>Philodendron Birkin</li>
+                    <li>Manjula Pothos</li>
+                    <li>Var. Money Tree</li>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> GREEK MYTHOLOGIES </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Icarus</li>
+                    <li>Phaeton</li>
+                  </ul>
+                  <h1 class="subsub-head bebas text-left"> PHILOSOPHER  </h1>
+                  <ul class="subsub-list sour-gummy">
+                    <li>Thomas Nagel</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <a class="top-button sub-list sour-gummy" href="#top">BACK TO TOP</a>
+    </div>
+    <div class="spacer-3"></div>
+  </section>
+         
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4 d-flex align-self-center">
+          <a class="email-link-foot sub-list sour-gummy" href="mailto:cain.psk.29@gmail.com">CONTACT ME!</a>
+        </div>
+        <div class="col-4"></div>
+        <div class="col-4 d-flex justify-content-center align-self-center">
+          <span class="contact-text footer-contact"> 
+          <img src="images/about/discord.png" class="logo-img">
+          n.v.caine </span> 
+          <span class="contact-text footer-contact">
+          <img src="images/about/steam.png" class="logo-img">
+          359568768 </span>
+        </div>
+      </div>
+    </div>
+  </footer>    
+
+
+  
+ 
+
+  <!-- JAVASCRIPT -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
