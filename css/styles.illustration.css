@@ -405,7 +405,7 @@
         width: 90%;
         height: 20%;
       }
-      .guide-button:hover, .guide-button:focus {
+      .guide-button:hover, .guide-button:focus, .guide-button:active {
         color: white;
         background-color: rgba(154, 80, 249, 1);
       }
@@ -570,7 +570,7 @@
     display: none;
     pointer-events: none;
   }
-  .tot-pic:hover .caption, .tot-pic:focus .caption {
+  .tot-pic:hover .caption, .tot-pic:focus .caption, .tot-pic:active .caption {
     opacity: 1;
     display: block;
   }
@@ -582,7 +582,7 @@
     line-height: 0.8em;
     display: block;
   }
-  .col-pic:hover, .col-pic:focus {
+  .col-pic:hover, .col-pic:focus, .col-pic:active {
     opacity: 0.2;
     cursor: pointer;
   }
@@ -650,7 +650,7 @@
     pointer-events: none;
     background-color: none;
   }
-  .tot-pic-s:hover .caption, .tot-pic-s:focus .caption {
+  .tot-pic-s:hover .caption, .tot-pic-s:focus .caption, .tot-pic-s:active .caption {
     opacity: 1;
     display: block;
   }
@@ -672,7 +672,7 @@
     display: none;
     pointer-events: none;
   }
-  .tot-pic-s:hover .caption-s, .tot-pic-s:focus .caption-s {
+  .tot-pic-s:hover .caption-s, .tot-pic-s:focus .caption-s, .tot-pic-s:active .caption-s {
     opacity: 1;
     display: block;
   }
@@ -698,11 +698,11 @@
     height: auto;
     text-align: center;
   }
-  .caption-button:hover, .caption-button:focus {
+  .caption-button:hover, .caption-button:focus, .caption-button:active {
     color: white;
     background-color: rgba(154, 80, 249, 1);
   }
-  .caption-button:hover .caption-pic, .caption-button:focus .caption-pic {
+  .caption-button:hover .caption-pic, .caption-button:focus .caption-pic, .caption-button:active .caption-pic {
     display: block;
   }
   .caption-pic {
