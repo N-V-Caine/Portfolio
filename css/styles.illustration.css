@@ -495,7 +495,7 @@
     min-height: 100%;
     padding-top: min(-15vw, -250px);
   }
-  #digital {
+  .category-box {
     position: relative;
     background-color: rgba(200, 156, 255, 1);
     width: 100%;
@@ -546,16 +546,29 @@
     overflow: hidden;
     transition:transform 0.25s ease;
     pointer-events: auto;
+    object-position: 50% 50%;
   }
   .tot-pic {
     width: 95%;
     object-fit: cover;
     position: relative;
     margin: 2.5%;
-    background-color: black;
-    height: min(30vw, 422px);
+    background-color: none;
+    height: min(32vw, 450px);
     transition:transform 0.25s ease;
     pointer-events: none;
+  }
+  .tot-pic-hold {
+    width: 95%;
+    object-fit: cover;
+    position: relative;
+    margin: 2.5%;
+    background-color: none;
+    height: min(32vw, 450px);
+    pointer-events: none;
+  }
+  .tot-pic:hover, .tot-pic:focus, .tot-pic:active {
+    background-color: rgba(0, 0, 0, 0.8);
   }
   .caption {
     color: white;
@@ -598,6 +611,7 @@
     margin: 0;
     background-color: rgba(0, 0, 0, 0.9);
     opacity: 1;
+    object-position: 50% 50% !important;
   }
   span.active .caption {
     opacity: 0;
@@ -636,11 +650,30 @@
     line-height: min(18px, 4vw);
     display: block;
   }
+  .sub-comment {
+    color: white ;
+    margin: 5px 0 0;
+    padding: 3px;
+    font-size: clamp(10px, 3vw, 20px);
+    line-height: clamp(15px, 4vw, 25px);
+    display: block;
+    background-color: rgba(42, 36, 49, 0.8);
+  }
   .spacer-2 {
     height: min(12vw, 140px);
     width: 100%;
   }
   .tot-pic-s {
+    width: auto;
+    object-fit: contain;
+    position: relative;
+    margin: 2.5%;
+    height: 25vw;
+    transition:transform 0.25s ease;
+    pointer-events: none;
+    background-color: none;
+  }
+  .tot-pic-s-hold {
     width: auto;
     object-fit: contain;
     position: relative;
@@ -657,8 +690,11 @@
   .tot-pic-s .col-pic {
     object-fit: contain;
   }
+  .caption-s .sub-text {
+    color: rgba(42, 36, 49, 1);
+  }
   .caption-s {
-    color: white;
+    color: rgba(42, 36, 49, 1);
     position: absolute;
     width: 90%;
     height: 40%;
@@ -717,119 +753,25 @@
     margin: 0;
     background-color: rgba(0, 0, 0, 0.9);
     display: none;
-  }
-
-
-
-/********* PAST **********/
-  .contact-info {
-    display: inline-block;
-    margin: 1vw 10% 0;
-    padding: 1vw;
-    background-color: rgba(42, 36, 49, 1);
-    text-align: center;
-  }
-  .contact-text {
-    color: white ;
-    margin: 0;
-    padding: 0 0 0 0.5vw;
-    font-size: clamp(10px, 2.5vw, 19px);
-    line-height: clamp(12px, 2.8vw, 24px);
-  }
-  .logo-img {
-    height: clamp(10px, 3.0vw, 22px);
-    margin: 0;
-    margin-right: 0.25vw;
-    margin-bottom: min(0.25vw, 2.795px);
-    display: inline;
-  }
-  .sub-box {
-    position: relative;
-    background-color: rgba(228, 208, 253, 0.8);
-    margin: auto 1vw 2vw;
-    padding-bottom: 1vw;
-  }
-  .sub-box-single {
-    height: 100%;
-  }
-  .sub-head {
-    background-color: rgba(42, 36, 49, 1);
-    color: rgba(154, 80, 249, 1);
-    margin: 0;
-    padding: 1% 2.5% 0 2.5%;
-    font-size: clamp(20px, 6vw, 50px);
+    pointer-events: none;
   }
   .subsub-head {
-    padding: 0.5% 2.5% 0;
-    background-color: ;
+    padding: 0.5% 2.5%;
     font-size: clamp(14px, 3.5vw, 35px);
     line-height: clamp(16px, 5vw, 40px);
     color: white;
-    display: inline-block;
-    margin: 0.75vw 0.75vw 0;
-    background-color: rgba(154, 80, 249, 1);
-  }
-  .sub-name {
+    display: block;
+    margin: 0 7.5%;
     background-color: rgba(42, 36, 49, 1);
-    color: rgba(154, 80, 249, 1);
-    margin: 0;
-    padding: 1% 2.5% 0 2.5%;
-    font-size: clamp(25px, 8vw, 75px);
-  }
-  .sub-list {
-    color: rgba(42, 36, 49, 1) ;
-    margin: 0 0 0 3vw;
-    padding: 0.5% 2.5% 0;
-    font-size: clamp(14px, 3.5vw, 35px);
-    line-height: clamp(16px, 5vw, 40px);
-  }
-  
-  h2.sub-list {
-    color: rgba(42, 36, 49, 1) ;
-    margin: 0;
-    padding: 0 2.5%;
-    font-weight: 600;
-    font-size: clamp(14px, 3.5vw, 35px);
-  }
-  .subsub-list {
-    color: rgba(42, 36, 49, 1) ;
-    padding: 0.5% 2.5% 0;
-    margin: 0 0 0 3vw;
-    font-size: clamp(10px, 3.2vw, 25px);
-    line-height: clamp(12px, 3.5vw, 30px);
-  }
-  .subsub-list-x {
-    color: rgba(42, 36, 49, 1) ;
-    margin-left: 0;
-    padding: 0.5% 2.5% 0;
-    font-size: clamp(10px, 3.2vw, 25px);
-    line-height: clamp(12px, 3.5vw, 30px);
-  }
-  .subsubsub-list-x {
-    color: rgba(42, 36, 49, 1) ;
-    margin-left: 2.5%;
-    padding: 0.5% 2.5% 0;
-    font-size: clamp(8px, 3vw, 20px);
-    line-height: clamp(10px, 3.2vw, 25px);
-  }
-  .email-link {
-    color: white;
-    width: 80%;
-    display: inline-block;
-    margin: 1vw 10% 0;
-    background-color: rgba(154, 80, 249, 1);
+    z-index: 5;
     text-align: center;
-  }
-  .email-link:hover, .email-link:focus {
-    background-color: rgba(42, 36, 49, 1);
+    width: 85%;
+    position: relative;
   }
 
-  .spacer-3 {
+.spacer-3 {
     height: min(3.75vw, 62.5px);
     width: 100%;
-  }
-  .sub-box li::marker {
-    content: 'x ';
   }
   .top-button {
     color: white;
@@ -844,6 +786,8 @@
   .top-button:hover, .top-button:focus {
     background-color: rgba(42, 36, 49, 1);
   }
+
+
 
 /***************** FOOTER *****************/
   footer {
