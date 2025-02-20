@@ -1,0 +1,853 @@
+/****************** GENERAL *****************/
+  .sour-gummy {
+    font-family: "Sour Gummy", serif;;
+    font-weight: 500;
+  }
+  .bebas {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .m-plus-medium {
+    font-family: "M PLUS Rounded 1c", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .m-plus-bold {
+    font-family: "M PLUS Rounded 1c", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.8em;
+    letter-spacing: -0.1em;
+  }
+  .jua {
+    font-family: "Jua", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8em;
+  }
+
+  a:link {
+    text-decoration: none!important;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  body {
+    background-color: rgba(56, 59, 68, 1);
+    min-height: 100%;
+    min-width: 100%;
+  }
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 8vw;
+    max-height: 115px;
+    z-index: 999;
+  }
+  html { 
+    height: 100%;
+    width: 100%;
+  }
+  .container-fluid {
+    height: auto;
+    width: 100%;
+  }
+  .row {
+    margin: 0;
+  }
+  .col-12, .col-5, .col-7, .col-sm-5, .col-sm-7  {
+    padding: 0;
+  }
+  .half-purple {
+    background-color: rgba(154, 80, 249, 1);
+    opacity: .5;
+  }
+  .half-red {
+    background-color: rgba(255, 60, 77, 1);
+    opacity: .5;
+  }
+  .half-yellow {
+    background-color: rgba(235, 153, 0, 1);
+    opacity: .5;
+  }
+  .half-blue {
+    background-color: rgba(80, 138, 249, 1);
+    opacity: .5;
+  }
+
+/****************** NAVBAR *****************/
+  .navbar {
+     background: rgba(42, 36, 49, 1);
+     height: 8vw;
+     max-height: 115px;
+     padding: 0;
+     position: fixed;
+     top: 0;
+  }
+  .navbar-menu {
+    height: 8vw;
+    max-height: 115px;
+    padding: 0;
+  }
+  .navbar-header {
+    height: 8vw;
+    max-height: 115px;
+    padding: 0;
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0;
+  }
+  .navbar-header .col-md-9 {
+    height: 6vw;
+    max-height: 90px;
+    position: relative;
+    top: 0;
+  }
+  .navbar-header.row{
+    height: 8vw;
+    padding: 1vw;
+    max-height: 115px;
+  }
+  .navbar-brand {
+    padding: 0;
+    margin: 0;
+    height: 8vw;
+    max-height: 115px;
+  }
+  .dropdown .invisible-button {
+    display: block;
+    position: absolute;
+    margin-bottom: -3.5vw;
+    z-index: 5;
+    opacity: 0;
+  }
+  .main_logo {
+    height: 7.5vw;
+    max-height: 110px;
+    margin-top: -.5vw;
+    position: relative;
+    float: left;
+    top: -5%;
+  }
+  .main_logo:hover, .main_logo:focus {
+    opacity: .5;
+  }
+  .name_box {
+    height: 8vw;
+    max-height: 115px;
+    margin: -1.5vw 0px 0px 1vw;
+    position: relative;
+    float: left;
+    top: 0%;
+  }
+  #signature {
+    height: 7vw;
+    max-height: 100px;
+    margin-top: 0.25vw;
+    position: absolute;
+    left: 7vw;
+  }
+  .my_name_head {
+    color: white;
+    position: absolute;
+    top: -.75vw;
+    position: absolute;
+    left: 0;
+    height: 7vw;
+    max-height: 100px;
+  }
+  .my_name_head p {
+    font-size: min(4vw, 57px);
+    padding: 0;
+    margin-bottom: 0;
+    height: min(3.5vw, 51.06px);
+  }
+  .navbar-header {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 1vw;
+    height: 8vw;
+    max-height: 115px;
+  }
+  .nav-menu {
+    width: 100%;
+    float: right;
+    position: relative;
+    top: 15%;
+    margin-top: 0.9vw;
+  }
+
+  .menu-item {
+    color: white;
+    margin: 0 .25vw 0 0.25vw;
+    padding: 0vw 1vw;
+    border: none;
+    border-radius: 0;
+    font-size: 2.5vw;
+    height: 3.5vw;
+    position: relative;
+    top: 0;
+  }
+  #home:hover, #home:focus {
+    background-color: rgba(112, 96, 134, 1.0);
+  }
+  #illustration:hover, #illustration:focus, #illustration li:hover > a {
+    background-color: rgba(154, 80, 249, 1.0);
+  }
+  #design:hover, #design:focus, #design li:hover > a {
+    background-color: rgba(255, 60, 77, 1.0);
+  }
+  #literature:hover, #literature:focus {
+    background-color: rgba(235, 153, 0, 1.0);
+  }
+  #web:hover, #web:focus {
+    background-color: rgba(80, 138, 249, 1.0);
+  }
+  #about:hover, #about:focus {
+    background-color: rgba(112, 96, 134, 1.0);
+  }
+  .dropdown:hover .dropdown-menu {
+      display: block;
+  }
+
+  #navbar-illustration {
+    background-color: rgba(83, 57, 110, 0.8);
+    border-radius: 0;
+    padding: 0 0.25vw;
+    position: absolute;
+    left: 0;
+    border: 0;
+    width: 21vw;
+    margin-top: 0;
+  }
+  #navbar-illustration a:hover, #navbar-illustration a:focus {
+      background-color: rgba(154, 80, 249, 1.0);
+      color: rgba(42, 36, 49, 1);
+  }
+
+  #navbar-design {
+    background-color: rgba(150, 47, 45, 0.8);
+    border-radius: 0;
+    padding: 0 0.25vw;
+    position: absolute;
+    left: 0;
+    border: 0;
+    width: 21vw;
+    margin-top: 0;
+  }
+  .dropdown-item {
+    color: white;
+    font-size: 2vw;
+    margin: .5vw .25vw;
+    text-align: left !important;
+    width: 20vw;
+    height: 3.5vw;
+    padding-left: 0.5vw;
+  }
+  #navbar-design a:hover, #navbar-design a:focus {
+      background-color: rgba(255, 60, 77, 1.0);
+      color: rgba(57, 37, 39, 1);
+  }
+    /********** CONDENSED MENU **********/
+      #menu-toggle {
+        position: relative;
+        right: -2vw;
+        top: -1vw;
+        padding: 0;
+        height: 6vw;
+        padding: 1vw 1vw 0.5vw;
+        width: 15vw;
+      }
+      #menu-button {
+        color: white;
+        text-decoration: none;
+        font-size: 5vw;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 6vw;
+        padding: 1vw 1vw 0.5vw;
+        display:flex; 
+        align-items:center;
+      }
+      #menu-toggle:hover, #menu-toggle:focus, #menu-toggle li:hover > a {
+        background-color: rgba(154, 80, 249, 1.0);
+      }
+      span div ul#navbar-condensed.dropdown-menu.show, span div ul#navbar-condensed.dropdown-menu {
+        background-color: rgba(56, 59, 68, 0.8);
+        border-radius: 0;
+        padding: 0.5vw;
+        position: absolute;
+        left: -8vw;
+        top: 7vw;
+        border: 0;
+        width: 23vw!important;
+        margin-top: 0;
+        margin-right: -5vw;
+        text-align: right!important;
+        --bs-dropdown-min-width: 0;
+        list-style: none;
+        list-style-type: none;
+      }
+      #navbar-condensed .dropdown-item-sub {
+        color: white;
+        text-align: right;
+        font-size: 3.5vw;
+        margin: .5vw 1vw;
+        padding: 0 1vw 5vw;
+        width: 20vw;
+        position: relative;
+        right: 0;
+        height: 4vw;
+        display: block;
+      }
+      #menu-toggle #home-con:hover, #menu-toggle #home-con:focus {
+        background-color: rgba(112, 96, 134, 1.0);
+      }
+      #menu-toggle #illustration-con:hover, #menu-toggle #illustration:focus, #illustration li:hover > a {
+        background-color: rgba(154, 80, 249, 1.0);
+      }
+      #menu-toggle #design-con:hover, #menu-toggle #design-con:focus {
+        background-color: rgba(255, 60, 77, 1.0);
+      }
+      #menu-toggle #literature-con:hover, #menu-toggle #literature-con:focus {
+        background-color: rgba(235, 153, 0, 1.0);
+      }
+      #menu-toggle #web-con:hover, #menu-toggle #web-con:focus {
+        background-color: rgba(80, 138, 249, 1.0);
+      }
+      #menu-toggle #about-con:hover, #menu-toggle #about-con:focus {
+        background-color: rgba(112, 96, 134, 1.0);
+      }
+
+/**************** MAIN HEAD ****************/
+  #top {
+    padding-top: min(8vw, 115px);
+  }
+  .spacer {
+    height: 8vw;
+    max-height: 115px;
+    width: 100%;
+  }
+  .diag-container {
+    height: 6vw;
+    max-height: 100px;
+    width: auto;
+    max-width: 100%;
+    margin: -2px 0 -2px 0;
+    position: relative;
+    z-index: -5;
+    overflow: hidden;
+  }
+  .diag-lines {
+    width: 100%;
+    opacity: .5;
+  }
+    /*********** SECTION BOX BASES **********/
+      .section_box {
+        width: 100%;
+        max-height: 500px;
+        position: relative;
+        margin: 0;
+      }
+      .section_box_lg {
+        width: 100%;
+        height: 25vw;
+        max-height: 500px;
+        position: relative;
+        margin: 0;
+      }
+      .illust_box {
+        background-color: rgba(255, 121, 132, 1);
+      }
+      .section_box .d-flex {
+        height: 25vw;
+      }
+  }
+  .class-visual {
+    position: relative;
+  }
+    /********** ILLUSTRATION CLASS **********/
+      .section_box_lg .d-flex.guide-sect {
+        height: 70%;
+        position: relative;
+        margin: auto auto;
+        display: flex;
+        align-items: center;
+      }
+      .section_box .d-flex.guide-sect-sm {
+        position: relative;
+        margin: auto auto;
+        display: flex;
+        align-items: center;
+      }
+      .section_box_lg .row {
+        margin-top: 2%;
+      }
+      .guide-sect-sm .col-6 a {
+        height: 20%;
+        display: flex;
+        width: 45vw;
+      }
+      .guide-button {
+        padding: 1%;
+        font-size: clamp(14px, 3.5vw, 35px);
+        line-height: clamp(14px, 3.5vw, 35px);
+        color: rgba(255, 60, 77, 1);
+        display: inline-block;
+        margin: 0.75vw 5%;
+        background-color: rgba(57, 37, 39, 1);
+        width: 90%;
+        height: 20%;
+      }
+      .guide-button:hover, .guide-button:focus, .guide-button:active {
+        color: white;
+        background-color: rgba(255, 60, 77, 1);
+      }
+      .line-class-top {
+        position: relative;
+        top: 1vw;
+        margin-bottom: -6.5vw;
+      }
+      .line-thin-class {
+        border: none;
+        height: 1.5vw;
+        margin: 0 0 1vw;
+      }
+      .line-thick-class {
+        border: none;
+        height: 3vw;
+        margin: 0 0 1vw;
+      }
+      .class-logo-D-lg {
+        width: 40%;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: 32vw;
+      }
+      .class-button-D-lg {
+        height: auto;
+        width: 55%;
+        top: 20%;
+        left: 6vw;
+        position: absolute;
+      }
+      .class-button-whole-D-lg {
+        height: 25vw;
+        max-height: 500px;
+        width: 58vw;
+        position: absolute;
+        float: right;
+        z-index: 6;
+      }
+      .class-logo-D {
+        width: 30vw;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: -8vw;
+        float: right;
+      }
+      .class-button-whole-D {
+        height: 25vw;
+        width: 50vw;
+        position: relative;
+        right: 3vw;
+        top: 2.5vw;
+        float: left;
+      }
+      .class-button-D {
+        height: auto;
+        width: 39vw;
+        top: 4.33vw;
+        right: -1.55vw;
+        position: absolute;
+      }
+  .sub-head {
+    padding: 0.5% 2.5%;
+    font-size: clamp(14px, 3.5vw, 35px);
+    line-height: clamp(16px, 5vw, 40px);
+    color: white;
+    display: block;
+    margin-top: max(-8vw, -90px);
+    margin-bottom: min(10vw, 120px);
+    margin-left: 7.5%;
+    background-color: rgba(57, 37, 39, 1);
+    z-index: 5;
+    text-align: center;
+    width: 85%;
+  }
+
+
+
+/***************** DIGITAL ART SECTION *****************/
+  .section-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .section-container::before {
+    background-size: 100%;
+    background-image: url("../images/design/red_diag_bg.png");
+    opacity: 0.5;
+    z-index: -5;
+    display: block;
+    content: '';
+    position: absolute;
+    background-repeat: repeat-y;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    padding-top: min(-15vw, -250px);
+  }
+  .category-box {
+    position: relative;
+    background-color: rgba(255, 121, 132, 1);
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .about-heading {
+    width: auto;
+    height: min(12vw, 140px);
+    position: relative;
+    top: max(-6vw, -70px);
+    margin-bottom: -6vw;
+    z-index: 5;
+  }
+  .heading-holder {
+    width: 100%;
+  }
+  .line-deco {
+    position: relative;
+    margin-top: 3vw;
+    top: max(-5vw, -80px);
+    margin-bottom: -6vw;
+    width: 100%;
+    padding: 0;
+    z-index: 4;
+  }
+  .line-thin {
+    border: none;
+    height: 1.5vw;
+    margin: 1vw 0;
+    max-height: 17px;
+  }
+  .line-thick {
+    border: none;
+    height: 3vw;
+    max-height: 34px;
+    margin: 1vw 0;
+  }
+  .a-sect1 {
+    position: relative;
+    padding-bottom: 5vw;
+  }
+  .col-pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    transition:transform 0.25s ease;
+    pointer-events: auto;
+    object-position: 50% 50%;
+  }
+  .col-pic-dark {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    transition:transform 0.25s ease;
+    pointer-events: auto;
+    object-position: 50% 50%;
+  }
+  .tot-pic {
+    width: 95%;
+    object-fit: cover;
+    position: relative;
+    margin: 2.5%;
+    background-color: none;
+    height: min(32vw, 450px);
+    transition:transform 0.25s ease;
+    pointer-events: none;
+  }
+  .tot-pic-hold {
+    width: 95%;
+    object-fit: cover;
+    position: relative;
+    margin: 2.5%;
+    background-color: none;
+    height: min(32vw, 450px);
+    pointer-events: none;
+  }
+  .tot-pic:hover, .tot-pic:focus, .tot-pic:active {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .caption {
+    color: white;
+    position: absolute;
+    width: 90%;
+    height: 40%;
+    margin: 5vw 5%;
+    text-align: center;
+    z-index: 2;
+    font-size: clamp(14px, 3.5vw, 35px);
+    line-height: 1em;
+    display: none;
+    pointer-events: none;
+  }
+  .tot-pic:hover .caption, .tot-pic:focus .caption, .tot-pic:active .caption {
+    opacity: 1;
+    display: block;
+  }
+  .sub-text {
+    color: white ;
+    margin: 0;
+    padding: 0;
+    font-size: 0.6em;
+    line-height: 0.8em;
+    display: block;
+  }
+  .col-pic:hover, .col-pic:focus, .col-pic:active {
+    opacity: 0.2;
+    cursor: pointer;
+  }
+  span.active .col-pic {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: min(8vw, 115px);
+    z-index: 998;
+    object-fit: contain;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 1;
+    object-position: 50% 50% !important;
+  }
+  span.active .col-pic-dark {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: min(8vw, 115px);
+    z-index: 998;
+    object-fit: contain;
+    margin: 0;
+    background-color: rgba(255, 60, 77, 0.6);
+    opacity: 1;
+    object-position: 50% 50% !important;
+  }
+  span.active .caption {
+    opacity: 0;
+    width: 95%;
+    object-fit: cover;
+    position: relative;
+    margin: 0 2.5%;
+    padding-top: 5vw;
+    background-color: black;
+    height: min(30vw, 422px);
+  }
+  .col-pic-sm {
+    width: 100%;
+    position: relative;
+    margin: 2.5vw 0;
+    padding: 0 2.5%;
+    height: auto;
+  }
+  .caption-sm {
+    color: white;
+    width: 95%;
+    position: relative;
+    margin: -2.5vw 2.5% 2.5vw;
+    padding: 1vw;
+    text-align: center;
+    z-index: 2;
+    font-size: clamp(16px, 3.5vw, 35px);
+    line-height: 1em;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .sub-text-sm {
+    color: white ;
+    margin: 0;
+    padding: 0;
+    font-size: min(10px, 3vw);
+    line-height: min(18px, 4vw);
+    display: block;
+  }
+  .sub-comment {
+    color: white ;
+    margin: 5px 0 0;
+    padding: 3px;
+    font-size: clamp(10px, 3vw, 20px);
+    line-height: clamp(15px, 4vw, 25px);
+    display: block;
+    background-color: rgba(57, 37, 39, 0.8);
+  }
+  .spacer-2 {
+    height: min(12vw, 140px);
+    width: 100%;
+  }
+  .tot-pic-s {
+    width: auto;
+    object-fit: contain;
+    position: relative;
+    margin: 2.5%;
+    height: 25vw;
+    transition:transform 0.25s ease;
+    pointer-events: none;
+    background-color: none;
+  }
+  .tot-pic-s-hold {
+    width: auto;
+    object-fit: contain;
+    position: relative;
+    margin: 2.5%;
+    height: 25vw;
+    transition:transform 0.25s ease;
+    pointer-events: none;
+    background-color: none;
+  }
+  .tot-pic-s:hover .caption, .tot-pic-s:focus .caption, .tot-pic-s:active .caption {
+    opacity: 1;
+    display: block;
+  }
+  .tot-pic-s .col-pic {
+    object-fit: contain;
+  }
+  .caption-s .sub-text {
+    color: rgba(57, 37, 39, 1);
+  }
+  .caption-s {
+    color: rgba(57, 37, 39, 1);
+    position: absolute;
+    width: 90%;
+    height: 40%;
+    margin: 5vw 5%;
+    padding: 0 5%;
+    text-align: center;
+    z-index: 2;
+    background-color: none;
+    font-size: clamp(14px, 3.5vw, 35px);
+    line-height: 1em;
+    display: none;
+    pointer-events: none;
+  }
+  .tot-pic-s:hover .caption-s, .tot-pic-s:focus .caption-s, .tot-pic-s:active .caption-s {
+    opacity: 1;
+    display: block;
+  }
+  span.active .caption-s {
+    opacity: 0;
+    width: 95%;
+    object-fit: cover;
+    position: relative;
+    margin: 0 2.5%;
+    padding-top: 5vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: min(20vw, 281px);
+  }
+  .caption-button {
+    padding: 1%;
+    font-size: clamp(12px, 3.5vw, 30px);
+    line-height: clamp(12px, 3.5vw, 30px);
+    color: rgba(255, 60, 77, 1);
+    display: inline-block;
+    margin: 0.75vw 25%;
+    background-color: rgba(57, 37, 39, 1);
+    width: 50%;
+    height: auto;
+    text-align: center;
+  }
+  .caption-button:hover, .caption-button:focus, .caption-button:active {
+    color: white;
+    background-color: rgba(255, 60, 77, 1);
+  }
+  .caption-button:hover .caption-pic, .caption-button:focus .caption-pic, .caption-button:active .caption-pic {
+    display: block;
+  }
+  .caption-pic {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: min(8vw, 115px);
+    z-index: 998;
+    object-fit: contain;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    pointer-events: none;
+  }
+  .subsub-head {
+    padding: 0.5% 2.5%;
+    font-size: clamp(14px, 3.5vw, 35px);
+    line-height: clamp(16px, 5vw, 40px);
+    color: white;
+    display: block;
+    margin: 0 7.5%;
+    background-color: rgba(57, 37, 39, 1);
+    z-index: 99;
+    text-align: center;
+    width: 85%;
+    position: relative;
+  }
+
+.top-button {
+    color: white;
+    display: block;
+    position: relative;
+    margin: min(3.75vw, 62.5px) auto 0;
+    background-color: rgba(255, 60, 77, 1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  .top-button:hover, .top-button:focus {
+    background-color: rgba(57, 37, 39, 1);
+  }
+  .spacer-3 {
+    height: min(3.75vw, 62.5px);
+    width: 100%;
+  }
+
+/***************** FOOTER *****************/
+  footer {
+    background: rgba(42, 36, 49, 1);
+    padding: 3vw 0;
+  }
+  footer .footer-contact {
+    display: block;
+    float: right;
+    margin-left: 5%;
+    font-size: min(2vw, 19px);
+    line-height: min(5vw, 24px);
+  }
+  .email-link-foot {
+    color: white;
+    width: 30vw;
+    font-size: clamp(14px, 3.5vw, 35px);
+    display: inline-block;
+    margin: 0 10% 0;
+    background-color: rgba(154, 80, 249, 1);
+    text-align: center;
+  }
+  .email-link-foot:hover, .email-link-foot:focus {
+    background-color: rgba(154, 80, 249, 0.3);
+  }
+
+
