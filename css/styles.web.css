@@ -474,7 +474,7 @@
     display: block;
     margin: auto 7.5%;
     background-color: rgba(74, 84, 110, 1);
-    z-index: 99;
+    z-index: 5;
     text-align: center;
     width: 85%;
     position: relative;
@@ -572,7 +572,6 @@
     height: min(32vw, 450px);
     transition:transform 0.25s ease;
     pointer-events: none;
-    z-index: 99;
   }
   .tot-pic-hold {
     width: 95%;
@@ -622,7 +621,7 @@
     width: 100%;
     height: 100%;
     padding-top: min(8vw, 115px);
-    z-index: 998;
+    z-index: 999;
     object-fit: contain;
     margin: 0;
     background-color: rgba(0, 0, 0, 0.9);
