@@ -572,7 +572,6 @@
     height: min(32vw, 450px);
     transition:transform 0.25s ease;
     pointer-events: none;
-    z-index: 99;
   }
   .tot-pic-hold {
     width: 95%;
